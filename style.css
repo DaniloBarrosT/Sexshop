@@ -1,0 +1,30 @@
+@charset "UTF-8" ;
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+*:root{
+    --color0:
+    --color1:
+    --color2:
+    --color3:
+    --color4:
+    --color5:
+    --color6:
+}
+header{
+    max-height: 40vw;
+    max-width: 100vw;
+    background-color:aqua ;
+    padding: 200px;
+}
+nav{
+    padding: 15px;
+    background-color: black;
+}
+a.iconconta{border-radius: 50px;
+
+}
+
