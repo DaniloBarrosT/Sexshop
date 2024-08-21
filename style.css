@@ -44,15 +44,29 @@ a.menunav:hover{
     border-radius: 8px;
 }
 main{
-    
-    background-image:bottom black,to purple ;
-
+    background-image: linear-gradient(to bottom, purple, to black  );
 }
 section{
-    background-color: transparent;
+    background-image: linear-gradient(to bottom,purple,black);
+    columns: 4;
+    padding: 80vh;
+    display: flex;
+}
+div.homepags{
+    margin: 30px;
+    padding: 50px;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: rgba(0, 0, 0, 0.123);
+    color: white;
+    flex: auto;
     
 }
-div{
-
+div#fetiches{
+    padding: 40px;
+    
+}
+footer{
+    background-color: rgb(53, 21, 49);
 }
 
