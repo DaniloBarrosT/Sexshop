@@ -45,12 +45,12 @@ a.menunav:hover{
 }
 main{
     background-image: linear-gradient(to bottom, purple, to black  );
+    height: 2500px;
 }
 section{
     background-image: linear-gradient(to bottom,purple,black);
-    columns: 4;
-    padding: 80vh;
     display: flex;
+    flex-direction: row;
 }
 div.homepags{
     margin: 30px;
@@ -60,10 +60,15 @@ div.homepags{
     background-color: rgba(0, 0, 0, 0.123);
     color: white;
     flex: auto;
-    
 }
 div#fetiches{
     padding: 40px;
+}
+p#pfetiches{
+    font-size: 20px;
+}
+button#buttonchamativo{
+    padding: 15px;
     
 }
 footer{
